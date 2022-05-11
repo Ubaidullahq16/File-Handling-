@@ -1,0 +1,20 @@
+#include<iostream>
+#include<fstream>
+using namespace std;	
+	int main(){
+		ofstream outFile;
+		char outputFileName  [ ] = "outputFile.txt";
+		char outputText [ 20 ] = "Ubaidulsslah";
+		
+		outFile.open( outputFileName , ios :: out );
+		
+		if ( ! outFile ) {
+			cout << "Cant't open this file " << outputFileName << '\n';
+			exit ( 1 );
+		}   
+		
+		outFile << outputText;
+		outFile.close();
+		
+		return 0;
+	}
