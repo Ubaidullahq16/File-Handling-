@@ -4,7 +4,7 @@ using namespace std;
 	int main(){
 		ofstream outFile;
 		char outputFileName  [ ] = "outputFile.txt";
-		char outputText [ 20 ] = "Ubaidulsslah";
+		char outputText [ 20 ] = "Ubaidulslah";
 		
 		outFile.open( outputFileName , ios :: out );
 		
