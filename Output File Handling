@@ -9,8 +9,8 @@ using namespace std;
 		
 		ofstream outFile;
 		
-		char outputFileName  [ ] = " outputFile.txt ";
-		char outputText [ 20 ] = " Ubaidullah Qureshi ";
+		char outputFileName  [  ] = " outputFile.txt ";
+		char outputText [  20  ] = " Ubaidullah Qureshi ";
 		
 		outFile.open( outputFileName , ios :: out );
 		
