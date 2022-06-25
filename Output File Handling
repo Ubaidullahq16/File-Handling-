@@ -12,12 +12,15 @@ using namespace std;
 		char outputFileName  [  ] = " outputFile.txt ";
 		char outputText [  20  ] = " Ubaidullah Qureshi ";
 		
-		outFile.open( outputFileName , ios :: out );
+		outFile.open ( outputFileName , ios :: out );
 		
 		if ( ! outFile ) 
 		{
+			
 			cout << "Cant't open this file " << outputFileName << '\n';
+			
 			exit ( 1 );
+		
 		}   
 		
 		outFile << outputText;
